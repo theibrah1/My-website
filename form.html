@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+    <style>
+    body {
+        background-image: url("images/bojo_sun.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(red, 255, blue, alpha);
+    }
+    form{
+        width: 300px;
+        margin: 0 auto;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    } 
+    input[type="text"],
+    input[type="email"] {
+        width:100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color:white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+	<h1>Welcome to Yasir's Family Please register below!</h1>
+    <form action="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"
+        name="email" require><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<a href="my_web.html">Go to Gallery page.</a>
+</html>

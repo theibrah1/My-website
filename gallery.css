@@ -1,0 +1,59 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group {
+  margin: 20px;
+}
+
+.group-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+.text  {
+  font-style: oblique;
+  font-weight: bold;
+  font: caption;
+}
+.credit {
+  font-weight: bold;
+}
+
+.body {
+  background-color: lightgrey;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #000;
+}
